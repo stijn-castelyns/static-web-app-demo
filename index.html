@@ -98,7 +98,7 @@
         &copy; 2024 Pirate's Blog. All Rights Reserved.
     </div>
     <script>
-        fetch("/api/pirate").then(r => r.text()).then(data => {
+        fetch("/api/HttpTrigger1").then(r => r.text()).then(data => {
             let p = document.getElementById("pirateData");
             p.innerHTML = data;
         });
