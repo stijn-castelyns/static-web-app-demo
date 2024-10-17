@@ -2,7 +2,13 @@
     "routes": [
         {
             "route": "/about.html",
-            "allowedRoles": ["authenticated"]
+            "allowedRoles": [
+                "authenticated"
+            ]
+        },
+        {
+            "route": "/logout",
+            "rewrite": "/.auth/logout"
         }
     ]
 }
